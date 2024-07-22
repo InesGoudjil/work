@@ -59,6 +59,8 @@ body {
 .form-container {
   flex: 1;
   padding: 20px;
+  max-height: 400px;
+  overflow-y: auto ;
 }
 
 h2 {
@@ -69,6 +71,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   color:white;
+  overflow-x: scroll;
 }
 
 table,
