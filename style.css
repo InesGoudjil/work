@@ -60,7 +60,7 @@ body {
   flex: 1;
   padding: 20px;
   max-height: 400px;
-  overflow-y: auto ;
+  overflow-y: auto;
 }
 
 h2 {
@@ -70,7 +70,7 @@ h2 {
 table {
   width: 100%;
   border-collapse: collapse;
-  color:white;
+  color: white;
   overflow-x: scroll;
 }
 
@@ -124,4 +124,10 @@ td {
   font-size: 16px;
   color: white;
   font-weight: 600;
+}
+.remove {
+  height: 25px;
+  background-color: rgb(38, 38, 39);
+  color: white;
+  width: 50%;
 }
